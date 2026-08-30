@@ -1,7 +1,7 @@
 // word list
 const WORDS = [
   "the","of","and","a","to","in","is","you","that","it","he","was","for","on","are",
-  "as","with","his","they","i","at","be","this","have","from","or","one","had","by",
+  "as","with","his","they","I","at","be","this","have","from","or","one","had","by",
   "word","but","not","what","all","were","we","when","your","can","said","there","use",
   "an","each","which","she","do","how","their","if","will","up","other","about","out",
   "many","then","them","these","so","some","her","would","make","like","him","into",
@@ -16,7 +16,27 @@ const WORDS = [
   "big","even","such","because","turn","here","why","ask","went","men","read","need",
   "land","different","home","us","move","try","kind","hand","picture","again","change",
   "off","play","spell","air","away","animal","house","point","page","letter","mother",
-  "answer","found","study","still","learn","should","world"
+  "answer","found","study","still","learn","should","world",
+  "school","father","family","food","city","country","friend","children","life","under",
+  "story","group","start","keep","last","might","while","never","thought","left",
+  "begin","sometimes","next","high","every","near","important","few","those","both",
+  "once","always","often","something","really","together","own","found","between","another",
+  "three","different","house","world","small","large","young","old","early","late",
+  "night","morning","today","tomorrow","yesterday","week","month","year","hour","minute",
+  "second","water","fire","earth","light","dark","place","room","door","window",
+  "car","road","street","tree","walk","run","move","stop","open","close",
+  "start","end","begin","help","keep","bring","leave","put","take","give",
+  "find","look","watch","hear","listen","talk","speak","read","write","learn",
+  "remember","understand","remember","think","know","believe","feel","want","need","like",
+  "love","hate","play","live","happen","become","seem","leave","call","show",
+  "world","school","company","problem","question","answer","idea","example","fact","number",
+  "money","power","part","side","head","face","body","eye","hand","foot",
+  "family","father","mother","brother","sister","child","friend","person","people","man",
+  "woman","boy","girl","name","word","book","paper","page","line","letter",
+  "computer","phone","internet","website","program","code","game","screen","keyboard","mouse",
+  "music","movie","picture","video","sound","color","black","white","red","blue",
+  "green","happy","easy","hard","fast","slow","strong","different","possible","better",
+  "best","important","real","right","wrong","sure","enough","almost","already","together"
 ];
 
 function randomWord() {
