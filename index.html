@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clackety</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <h1 class="logo">Clackety </h1>
+    <div class="controls">
+      <div class="option-group" id="time-group">
+        <button class="option" data-time="15">15s</button>
+        <button class="option active" data-time="30">30s</button>
+        <button class="option" data-time="60">60s</button>
+        <button class="option" data-time="120">120s</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-row" id="live-stats">
+      <div class="stat">
+        <span class="stat-value" id="timer-value">30</span>
+        <span class="stat-label">seconds</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="wpm-value">0</span>
+        <span class="stat-label">wpm</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="acc-value">100%</span>
+        <span class="stat-label">accuracy</span>
+      </div>
+    </section>
+
+    <div class="type-area" id="type-area" tabindex="0">
+      <div class="text-display" id="text-display"></div>
+      <input type="text" id="hidden-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+      <div class="click-hint" id="click-hint">click here or press any key to focus</div>
+    </div>
+
+    <div class="actions">
+      <button class="btn" id="restart-btn">restart — <kbd>tab</kbd></button>
+    </div>
+
+    <section class="results" id="results" hidden>
+      <h2>results</h2>
+      <div class="results-grid">
+        <div class="result-block">
+          <span class="result-value" id="result-wpm">0</span>
+          <span class="result-label">wpm</span>
+        </div>
+        <div class="result-block">
+          <span class="result-value" id="result-acc">0%</span>
+          <span class="result-label">accuracy</span>
+        </div>
+        <div class="result-block">
+          <span class="result-value" id="result-raw">0</span>
+          <span class="result-label">raw wpm</span>
+        </div>
+        <div class="result-block">
+          <span class="result-value" id="result-chars">0</span>
+          <span class="result-label">characters</span>
+        </div>
+      </div>
+      <button class="btn btn-primary" id="try-again-btn">try again</button>
+    </section>
+
+    <section class="best-scores">
+      <h2>personal bests</h2>
+      <div class="best-grid" id="best-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>your scores live in this browser only.</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
