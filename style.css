@@ -1,12 +1,12 @@
 :root {
-  --bg: #faf8f3;
-  --surface: #f1ede3;
-  --ink: #2b2926;
-  --ink-soft: #6f6a60;
-  --ink-faint: #b9b3a4;
-  --accent: #c65d3b;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --ink: #000000;
+  --ink-soft: #3d3d3d;
+  --ink-faint: #8d8d8d;
+  --accent: #0066ff;
   --error: #b23b3b;
-  --border: #ddd6c6;
+  --border: #99b3dc;
   --mono: "JetBrains Mono", "Fira Code", "SFMono-Regular", Consolas, monospace;
 }
 
@@ -150,7 +150,7 @@ main {
   justify-content: center;
   font-size: 14px;
   color: var(--ink-soft);
-  background: rgba(250, 248, 243, 0.6);
+  background: rgba(243, 247, 250, 0.6);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.15s ease;
