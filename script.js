@@ -16,7 +16,7 @@ const WORDS = [
   "big","even","such","because","turn","here","why","ask","went","men","read","need",
   "land","different","home","us","move","try","kind","hand","picture","again","change",
   "off","play","spell","air","away","animal","house","point","page","letter","mother",
-  "answer","found","study","still","learn","should","world",
+  "answer","found","study","still","learn","should","world","idiot","Hackclub","minutes",
   "school","father","family","food","city","country","friend","children","life","under",
   "story","group","start","keep","last","might","while","never","thought","left",
   "begin","sometimes","next","high","every","near","important","few","those","both",
